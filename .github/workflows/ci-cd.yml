@@ -46,4 +46,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-demo:latest
-            ${{ secrets.DOCKERHUB_TOKEN }}/ci-cd-demo:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-demo:${{ github.sha }}
